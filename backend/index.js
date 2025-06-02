@@ -45,7 +45,7 @@ app.post('/shorten', async (req,res)=>{
 
     res.status(201).json({
         message:"Short URL created successfully",
-        shortUrl: `http://localhost:4000/${shortCode}`
+        shortUrl: `https://shortify-ss3e.onrender.com/${shortCode}`
     });
 } catch(error){
     res.status(500).json({error:"Something went wrong", details:error.message});
