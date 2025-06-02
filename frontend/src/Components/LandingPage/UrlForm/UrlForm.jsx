@@ -17,7 +17,7 @@ const UrlForm = () => {
 
     const getShortenUrl = async ()=>{
         let responseData;
-        await fetch('http://localhost:4000/shorten',{
+        await fetch('https://shortify-ss3e.onrender.com/shorten',{
             method:'POST',
             headers:{
                 Accept:'application/json',
